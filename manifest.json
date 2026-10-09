@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "id": "julian-kaluga-inkdeck",
+  "name": "InkDeck KPM Repository",
+  "description": "KPM packages for InkDeck on Vera/Mesquite Kindle devices.",
+  "packages": {
+    "inkdeck": {
+      "name": "InkDeck",
+      "author": "Julian Kaluga",
+      "description": "Offline games and tools for Vera/Mesquite Kindle devices; no KOReader required.",
+      "artifacts": [
+        {
+          "url": "inkdeck_3.6.0_kindlehf.kpkg",
+          "version": [3, 6, 0],
+          "dependencies": [],
+          "supported_platforms": ["kindlehf"]
+        }
+      ]
+    }
+  }
+}
